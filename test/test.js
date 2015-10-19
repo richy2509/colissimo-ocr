@@ -21,7 +21,7 @@ describe('Colissimo-OCR', function() {
 			var realImagePath = 'images/dates/' + imagePath;
 			itShouldGuess(expectedText, realImagePath);
 		}
-	})
+	});
 
 	describe('Texts', function() {
 		var texts = require('../images/texts/texts');
@@ -32,4 +32,4 @@ describe('Colissimo-OCR', function() {
 		}
 	})
 
-})
+});
